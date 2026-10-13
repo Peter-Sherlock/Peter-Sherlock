@@ -1,93 +1,85 @@
 <div align="center">
 
-<img src="./hero.png?v=20261012-starfield" width="100%" alt="A starlit horizon over a distant planetary landscape" />
+<img src="./assets/hero.svg" width="100%" alt="Peter Wang — Building AI systems that carry context forward." />
 
 <br />
 
-<h1>Hi, I’m Peter Wang.</h1>
-
-<p><strong>AI & Software Development · LLMs · Agent Systems</strong></p>
-
-<p><sub>Master’s student at Nanjing Normal University · Nanjing, China</sub></p>
-
-<p>
-  <a href="#about-me">About</a> &nbsp; / &nbsp;
-  <a href="#focus-areas">Focus</a> &nbsp; / &nbsp;
-  <a href="#selected-work">Projects</a> &nbsp; / &nbsp;
-  <a href="mailto:241302144@njnu.edu.cn">Contact</a>
-</p>
+<a href="#about">About</a> &nbsp; · &nbsp;
+<a href="#research-focus">Focus</a> &nbsp; · &nbsp;
+<a href="#selected-projects">Projects</a> &nbsp; · &nbsp;
+<a href="#toolbox">Toolbox</a> &nbsp; · &nbsp;
+<a href="mailto:wangp3244@gmail.com">Contact</a>
 
 </div>
 
 <br />
 
-## About me
+## About
 
-I’m a master’s student focused on artificial intelligence and software development. I enjoy turning ideas into practical, maintainable prototypes, especially systems that preserve context and make use of feedback over time.
+Hi, I’m **Peter**, an AI and software developer exploring the systems around language models.
 
-My work explores the architecture around language models: how agents coordinate actions, how evidence and memory evolve, and how evaluation can guide the next iteration.
+I like building software that can **hold onto context, respond to changing evidence, and improve through feedback**. My projects explore agent collaboration, stateful workflows, retrieval, and reproducible evaluation.
 
-## Focus areas
+> **Make context useful. Make behavior inspectable.**
 
-| Agent systems | Knowledge & memory | Evaluation & feedback |
-| :--- | :--- | :--- |
-| State, tools, delegation, and continuing workflows. | Retrieval, changing evidence, and persistent context. | Reproducible behavior, grounded checks, and useful iteration. |
+## Research focus
 
-## Selected work
+<img src="./assets/focus.svg" width="100%" alt="Agent systems: state, tools and coordination. Knowledge and memory: retrieval, context and evidence. Evaluation and feedback: replay, comparison and iteration." />
 
-A few projects that connect these interests with working software.
+## Selected projects
+
+Five projects, connected by a shared interest in context, coordination, and feedback. **Click a card to explore the repository.**
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<sub>01 / AGENT COLLABORATION</sub>
-<h3><a href="https://github.com/Peter-Sherlock/Mentis">Mentis</a></h3>
-<p>An artifact-driven collaboration prototype for delegation, feedback, and inspectable evidence.</p>
-<p><code>Delegation</code> <code>Feedback</code> <code>Artifacts</code></p>
-</td>
-<td width="50%" valign="top">
-<sub>02 / EVIDENCE EVOLUTION</sub>
-<h3><a href="https://github.com/Peter-Sherlock/Veritas">Veritas</a></h3>
-<p>A research prototype exploring how conclusions should change when their supporting evidence changes.</p>
-<p><code>Evidence</code> <code>State</code> <code>Research</code></p>
-</td>
+<td width="50%"><a href="https://github.com/Peter-Sherlock/Mentis"><img src="./assets/mentis.svg" width="100%" alt="Mentis — Agent collaboration through delegation, artifacts and feedback." /></a></td>
+<td width="50%"><a href="https://github.com/Peter-Sherlock/Veritas"><img src="./assets/veritas.svg" width="100%" alt="Veritas — Keep research conclusions aligned with changing evidence." /></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub>03 / STATEFUL COORDINATION</sub>
-<h3><a href="https://github.com/Peter-Sherlock/OrgPilot">OrgPilot</a></h3>
-<p>A replayable coordination kernel for events, dependencies, and organizational workflows.</p>
-<p><code>Events</code> <code>Replay</code> <code>Coordination</code></p>
-</td>
-<td width="50%" valign="top">
-<sub>04 / TOOLS & INTEGRATIONS</sub>
-<h3><a href="https://github.com/Peter-Sherlock/toggl-mcp">toggl-mcp</a></h3>
-<p>A Python MCP server that connects Toggl Track with practical agent workflows.</p>
-<p><code>Python</code> <code>MCP</code> <code>Tooling</code></p>
-</td>
+<td width="50%"><a href="https://github.com/Peter-Sherlock/OrgPilot"><img src="./assets/orgpilot.svg" width="100%" alt="OrgPilot — Stateful coordination with events, dependencies and deterministic replay." /></a></td>
+<td width="50%"><a href="https://github.com/Peter-Sherlock/toggl-mcp"><img src="./assets/toggl-mcp.svg" width="100%" alt="toggl-mcp — A Python MCP server connecting Toggl Track to agent workflows." /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/Peter-Sherlock/TypeRAG"><img src="./assets/typerag.svg" width="100%" alt="TypeRAG — A retrieval learning and experiment platform using the TypeScript corpus." /></a></td>
+<td width="50%"><a href="https://github.com/Peter-Sherlock?tab=repositories"><img src="./assets/lab.svg" width="100%" alt="Explore all repositories, experiments and project notes." /></a></td>
 </tr>
 </table>
 
-Also exploring retrieval experiments with **[TypeRAG](https://github.com/Peter-Sherlock/TypeRAG)**.
+## Toolbox
 
-## Current direction
+<img src="./assets/toolbox.svg" width="100%" alt="Python · LLMs · MCP · Retrieval · Evaluation · Git" />
 
-I’m interested in long-running workflows where the surrounding system owns state, memory, and evaluation, while models and execution tools remain replaceable.
+I use these tools and ideas to build small, inspectable prototypes. Each repository documents its own implementation, validation, and current boundaries.
 
-<div align="center">
+## How I approach building
 
-<p><strong>Build</strong> &nbsp; → &nbsp; <strong>Observe</strong> &nbsp; → &nbsp; <strong>Evaluate</strong> &nbsp; → &nbsp; <strong>Refine</strong></p>
+| Start with the workflow | Keep the evidence | Iterate with feedback |
+| :--- | :--- | :--- |
+| Understand the goal, state, and constraints before adding complexity. | Preserve artifacts, event traces, and evaluation results so changes can be inspected. | Compare what changed, check the behavior, and let observations guide the next step. |
 
-</div>
+<details>
+<summary><strong>Currently exploring</strong></summary>
 
 <br />
 
----
+- **Long-running agent workflows:** keeping goals, state, and user feedback across iterations.
+- **Evolving evidence and memory:** revisiting conclusions when sources or constraints change.
+- **Reproducible evaluation:** comparing behavior with frozen inputs and inspectable traces.
+- **Practical integrations:** giving agents useful tools with clear controls and outcomes.
+
+</details>
+
+<br />
+
+<img src="./assets/footer.svg" width="100%" alt="Thoughtful architecture. Useful feedback. Better iterations. Build → Observe → Evaluate → Refine." />
 
 <div align="center">
 
-<p><em>Thoughtful architecture. Useful feedback. Better iterations.</em></p>
+<br />
 
-<sub><a href="mailto:241302144@njnu.edu.cn">Get in touch</a> &nbsp; · &nbsp; <a href="https://github.com/Peter-Sherlock?tab=repositories">Explore all repositories</a></sub>
+**Let’s talk about agents, retrieval, and useful software.**
+
+<a href="mailto:wangp3244@gmail.com">wangp3244@gmail.com</a> &nbsp; · &nbsp;
+<a href="https://github.com/Peter-Sherlock?tab=repositories">Explore my repositories</a>
 
 </div>
